@@ -1,7 +1,8 @@
-numero = 8
+numero = 15
 hex_digits = "0123456789ABCDEF"
 if numero == 0:
         print("0")
+
 else:
         hexadecimal = ""
         while numero > 0:
