@@ -1,4 +1,4 @@
-numero = 8
+numero = 2
 if numero == 0:
 
         print("0")
@@ -6,9 +6,9 @@ if numero == 0:
 binario = ""
 
 while numero > 0:
-        residuo = numero % 8
+        residuo = numero % 2
         binario = str(residuo) + binario
-        numero = numero // 8
+        numero = numero // 2
 
 
 print(binario)
