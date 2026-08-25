@@ -1,7 +1,7 @@
 n = int(input("Ingrese un número: "))
 i=2
-if n<2:
-    print("es primo")
+if n<=1:
+    print("no es primo")
 else:
     while i*i<=n:
         if n%i==0:
