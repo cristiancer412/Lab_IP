@@ -1,4 +1,4 @@
-numero = 9
+numero = 10
 hex_digits = "0123456789ABCDEF"
 if numero == 0:
         print("0")
